@@ -1,0 +1,33 @@
+\documentclass[a4paper,10pt]{memoir}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\pagenumbering{gobble}
+
+\fboxsep=10mm % padding thickness
+\fboxrule=4pt % border thickness
+
+\begin{document}
+
+\begin{vplace}[0.4]
+  \begin{figure}[h]
+    \centering
+    \fcolorbox{black}{white}{
+      \includegraphics[width=0.8\textwidth]{VancePortrait.jpeg}
+    }
+  \end{figure}
+    
+  \begin{center}
+    \LARGE{\textbf{``My final two years in the Marines flew by and were largely
+    uneventful, though two incidents stand out, each of which speaks to the
+    way the Marine Corps changed my perspective. The first was a moment in time
+    in Iraq, \textit{where I was lucky to escape any real fighting} but which
+    affected me deeply nonetheless.''}}
+  \end{center}
+
+  \begin{flushright}
+    \LARGE{\textbf{\textit{Vice President JD Vance}}}
+  \end{flushright}
+\end{vplace}
+
+\end{document}

@@ -1,0 +1,29 @@
+\documentclass[a4paper,10pt]{memoir}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\pagenumbering{gobble}
+
+\fboxsep=10mm % padding thickness
+\fboxrule=4pt % border thickness
+
+\begin{document}
+
+\begin{vplace}[0.6]
+  \begin{figure}[h]
+    \centering
+    \fcolorbox{black}{white}{
+      \includegraphics[width=0.8\textwidth]{Donald_Trump_official_portrait.jpg}
+    }
+  \end{figure}
+    
+  \begin{center}
+    \Huge{\textbf{`` I'm very highly educated. I know words, I know the best words. ''}}
+  \end{center}
+
+  \begin{flushright}
+    \Huge{\textbf{\textit{President Donald Trump}}}
+  \end{flushright}
+\end{vplace}
+
+\end{document}
